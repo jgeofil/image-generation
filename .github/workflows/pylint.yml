@@ -1,0 +1,10 @@
+name: ruff-action
+
+on: [push]
+
+jobs:
+  lint:
+    runs-on: ubuntu
+    name: ruff
+    steps:
+      - uses: astral-sh/ruff-action@v3
